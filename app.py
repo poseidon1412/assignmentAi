@@ -1,6 +1,7 @@
 import streamlit as stl
 import pandas as pd
 import numpy as np
+import xgboost
 import pickle
 
 pickle_in = open('Customer_churn_classifier.pkl', 'rb')
